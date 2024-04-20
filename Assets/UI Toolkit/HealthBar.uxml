@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/ProgressBar.uss?fileID=7433441132597879392&amp;guid=1f91185730fc2624fb1ef262a63b70fb&amp;type=3#ProgressBar" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label />
+        <ui:Label tabindex="-1" text="PlayerHealth" parse-escape-sequences="true" display-tooltip-when-elided="true" binding-path="Health" />
+        <ui:ProgressBar value="22" title="my-progress" />
+    </ui:VisualElement>
+</ui:UXML>

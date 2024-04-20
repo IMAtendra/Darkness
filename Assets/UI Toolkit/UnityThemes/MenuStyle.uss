@@ -1,0 +1,49 @@
+.Panel {
+    width: 340px;
+    position: absolute;
+    height: 50%;
+}
+
+.title {
+    -unity-font: url("project://database/Assets/3DGamekitLite/Packages/TextMesh%20Pro/Fonts/Rajdhani/Rajdhani-Bold.ttf?fileID=12800000&guid=3f33109a773074647bf9153825f5d0ae&type=3#Rajdhani-Bold");
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 52px;
+    -unity-font-style: normal;
+    margin-top: -100px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+.btn {
+    -unity-text-align: middle-center;
+    font-size: 36px;
+    -unity-font: url("project://database/Assets/3DGamekitLite/Packages/TextMesh%20Pro/Fonts/Rajdhani/Rajdhani-Bold.ttf?fileID=12800000&guid=3f33109a773074647bf9153825f5d0ae&type=3#Rajdhani-Bold");
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    -unity-slice-left: 38;
+    -unity-slice-top: 38;
+    -unity-slice-right: 38;
+    -unity-slice-bottom: 38;
+    letter-spacing: 3px;
+    -unity-background-image-tint-color: rgba(56, 56, 56, 0);
+}
+
+.btn:hover {
+    background-color: rgb(255, 69, 92);
+    transform-origin: bottom;
+    translate: 0 0;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out-bounce;
+    transition-delay: 0s;
+    transition-property: all;
+    -unity-background-image-tint-color: rgba(0, 0, 0, 0);
+    -unity-font-style: bold;
+}
